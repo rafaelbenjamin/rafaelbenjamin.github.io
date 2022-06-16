@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />		
 	</head>
 	<body class="is-preload">
 
@@ -20,7 +21,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="Rafael's picture" /></span>
+							<span class="image avatar"><img src="images/avatar.jpg" alt="Rafael's picture" /></span>
 							<h1 id="title">Rafael Benjamin</h1>
 							<p>iOS Developer</p>
 							<p>Barueri, Brazil <img src="images/flag-brazil.png" alt="Brazilian flag image" style="width:1.5em;;height:1.5em;vertical-align:bottom" /></p>
@@ -76,7 +77,6 @@
 							opportunity as a developer. </br>
 							Strong pursuit for learning new technologies, self-Improvement through self-study of multiple sources.</p>
 							
-
 						</div>
 					</section>
 
@@ -88,50 +88,45 @@
 								<h2>Portfolio</h2>
 							</header>
 
-							<p>Here are some of my study projects:</p>
+							<div class="row project-card" >
+								<div class="col-md-6 col-lg-5 project-card__img">
+									<img class="" src="./images/yoga-features-display.png" alt="project yoga zone prints">
+								</div>
+								<div class="col-md-6 col-lg-7 project-card__info">
+								
+								<div id="box">									
+										<span> 
+											<h3 class="project-card__title">
+												<img src="./images/yoga-zone-icon.png" alt="Yoga zone app icon image" style="width:1.5em;;height:1.5em;vertical-align:bottom" /> 
+												<div class="divider"> </div> Yoga zone
+											</h3> 
+										</span>
+								</div>
 
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>Ipsum Feugiat</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Rhoncus Semper</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>Magna Nullam</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
-										</header>
-									</article>
+									<p class="project-card__description">
+										The App was created for our iOS development course, it was designed and developed by a group of five and has features aimed at individual
+										the practice of yoga and with a few extras. </br></br>
+										The main features that I have worked on are Events, wich consists of users being able to create, find and join in these agendas. 
+										The user also can update and delete it's own created event. Another feature was the Onboarding, a simple first-login form to fill in some
+										data and store it on the backend. And the Profile, where those info can be view and edited. Along with changing the password, deleting 
+										account and logout.  </br></br>
+									</p>
+									<p class="project-card__stack">Stack used:</p>
+									<ul class="tags">
+										<li>Swift</li>
+										<li>Autolayout</li>
+										<li>MVC</li>
+										<li>Cocoapods</li>
+										<li>UserDefaults</li>
+										<li>Firebase</li>
+										<li>Firestore</li>
+										<li>Rest APIs</li>
+										<li>Gitflow</li>
+									</ul>
+									<p class="project-card__links">Links:</p>
+									<a href="https://github.com/bf346-grupoA/yoga-zone/tree/develop" target="_blank" class="project-card__link"> Source Code</a>
+									<a class="project-card__link" style="pointer-events:none;border-bottom:none"> &nbsp;|&nbsp;</a>
+									<a href="https://www.figma.com/file/P3a74UujkaHTRo4xSQPBEa/App_YogaZone?node-id=0%3A1" target="_blank" class="project-card__link">Figma</a>
 								</div>
 							</div>
 
